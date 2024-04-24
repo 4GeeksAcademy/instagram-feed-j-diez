@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 15%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-gear {
+    background-color: grey !important;
+    color: white !important;
+}
+.btn-verde{
+    padding-right: 10px !important;
+}
+.icons-grid {
+    padding: 40px;
+}
+
+.icons-grid a {
+    color: black !important;
+}
+
+.icons-grid a:hover {
+    color: rgb(25, 64, 192) !important;
+}
+
+.photo-grid {
+    width: 100%;
+    height: 290px;
+    padding-bottom: 15px;
+}
+
+.photo-feed{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.photo-post{
+    width: 100%;
+}
+.custom-textarea {
+    width: 100%;
+    height: 150px; /* Altura deseada */
+    resize: none; 
+}
+.icon-modal{
+    font-size: 20px;
+    border-style: none;
+}
+.btn-camera {
+    background-color: grey !important;
+    color: white !important;
+}
+.btn-gps {
+    background-color: grey !important;
+    color: white !important;
+}
+.dropdown-item:hover{
+    font-weight:500;
+}
+.header{
+    width: 100%;
+}

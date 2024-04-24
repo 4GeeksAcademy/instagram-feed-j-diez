@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img class="logo" src="img/ig-logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNav">
+                <div class="btn-verde">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">Crear
+                        un nuevo post</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Caption:</p>
+                                <textarea class="form-control" rows="5"
+                                    placeholder="Añada la descripción de su foto aquí..."></textarea>
+
+                            </div>
+                            <div class="modal-body">
+                                <button class="btn btn-camera"><i class="bi bi-camera-fill icon-modal"></i></button>
+                                <button class="btn btn-gps"><i class="bi bi-geo-alt-fill icon-modal"></i></button>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Publish</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" class="btn btn-gear dropdown-toggle"><i
+                            class="bi bi-gear-fill"></i></button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li><a class="dropdown-item page-header" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" style="color: red;" href="#">Log out</a></li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container d-flex justify-content-center text-center icons-grid">
+
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-grid-3x3"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="timeline.html"><i class="bi bi-square"></i></a>
+            </li>
+          </ul>
+    </div>
+    <div class="container">
+        <div class="photo-feed mx-auto">
+
+            <div class="row box border">
+                <div class="col-md-6 p-3">
+                    <h3>My Crazy Dog Spark</h3>
+                </div>
+                <div class="col-md-6 date">
+                    <h5>08/12</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <img class="photo-post img-responsive" src="img/perro.jpg" alt="perro" />
+                </div>
+            </div>
+            <div class="row box border">
+                <div class="col-md-12 p-3">
+                    <h5><i class="bi bi-heart-fill">&nbsp;</i>125 Likes</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12p-3">
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="photo-feed mx-auto">
+
+            <div class="row box border">
+                <div class="col-md-6 p-3">
+                    <h3>Día de montaña</h3>
+                </div>
+                <div class="col-md-6 date">
+                    <h5>08/12</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <img class="photo-post img-responsive" src="img/paisaje.jpg" alt="paisaje" />
+                </div>
+            </div>
+            <div class="row box border">
+                <div class="col-md-12 p-3">
+                    <h5><i class="bi bi-heart-fill">&nbsp;</i>125 Likes</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12p-3">
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="photo-feed mx-auto">
+
+            <div class="row box border">
+                <div class="col-md-6 p-3">
+                    <h3>Comienza La Liga</h3>
+                </div>
+                <div class="col-md-6 date">
+                    <h5>08/12</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <img class="photo-post img-responsive" src="img/pelota.jpeg" alt="pelota" />
+                </div>
+            </div>
+            <div class="row box border">
+                <div class="col-md-12 p-3">
+                    <h5><i class="bi bi-heart-fill">&nbsp;</i>125 Likes</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12p-3">
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="photo-feed mx-auto">
+
+            <div class="row box border">
+                <div class="col-md-6 p-3">
+                    <h3>Rosario Central</h3>
+                </div>
+                <div class="col-md-6 date">
+                    <h5>08/12</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <img class="photo-post img-responsive" src="img/central.png" alt="central" />
+                </div>
+            </div>
+            <div class="row box border">
+                <div class="col-md-12 p-3">
+                    <h5><i class="bi bi-heart-fill">&nbsp;</i>125 Likes</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12p-3">
+                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                            ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts de Bootstrap 5 (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
